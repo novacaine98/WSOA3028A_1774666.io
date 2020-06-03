@@ -6,7 +6,7 @@ body{
 button{
     background-color: transparent;
     border: none;
-    color: #ffffff;
+    color: #000080;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -19,9 +19,8 @@ button{
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
-    background-color: black;
 }
 
 header{
@@ -50,9 +49,8 @@ nav ul{
 nav li{
     font-family: 'Lemonada', sans-serif;
     display: inline-block;
-    margin-left: 120px;
-    padding: 15px 32px;
-    margin: 4px 2px;
+    margin-left: 100px;
+    
 }
 
 li :hover{
@@ -60,7 +58,7 @@ li :hover{
 }
 
 nav a{
-    color: #ffffff;
+    color: #000080;
     text-decoration: none;
     text-transform: uppercase;
 }
