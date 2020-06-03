@@ -21,6 +21,7 @@ button{
 .container{
     width: 80%;
     margin: 0 auto;
+    background-color: black;
 }
 
 header{
@@ -59,7 +60,7 @@ li :hover{
 }
 
 nav a{
-    color: #000080;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
 }
