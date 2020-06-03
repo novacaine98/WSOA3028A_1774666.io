@@ -53,6 +53,10 @@ nav li{
     padding-top: 50px
 }
 
+li :hover{
+    background-color: #ff9900;
+}
+
 nav a{
     color: #000080;
     text-decoration: none;
