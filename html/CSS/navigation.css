@@ -6,6 +6,11 @@ body{
 button{
     background-color: transparent;
     border: none;
+    outline: none;
+    color: #000080;
+    font-weight: 300;
+    font-family: 'Lemon', sans-serif;
+    text-transform: uppercase;
 }
 
 .container{
@@ -38,7 +43,7 @@ nav ul{
 nav li{
     display: inline-block;
     margin-left: 70px;
-    padding-top: 25px;
+    padding-top: 50px
     color: #000080;
     text-transform: uppercase;
 }
