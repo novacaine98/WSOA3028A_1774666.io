@@ -1,12 +1,17 @@
 body{
     margin: 0;
     background: #047991;
-    font-family: 'Lemon', sans-serif;
-    font-weight: 300;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
 
 header{
     background: #ff9900;
+    font-family: 'Lemon', sans-serif;
+    font-weight: 300;
 }
 
 header ::after{
