@@ -3,13 +3,18 @@ body{
     background: #047991;
 }
 
+button{
+    background-color: transparent;
+    border: none;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
 }
 
 header{
-    background: #ff9900;
+    background: #4d4d4d;
     font-family: 'Lemon', sans-serif;
     font-weight: 300;
 }
@@ -34,6 +39,8 @@ nav li{
     display: inline-block;
     margin-left: 70px;
     padding-top: 25px;
+    color: #000080;
+    text-transform: uppercase;
 }
 
 nav a{
