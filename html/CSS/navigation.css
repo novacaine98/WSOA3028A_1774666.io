@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    background: #047991;
+    font-family: 'Lemon', sans-serif;
+    font-weight: 300;
+}
+
 header{
     background: #ff9900;
 }
