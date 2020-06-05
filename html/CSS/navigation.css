@@ -24,7 +24,6 @@ button{
 }
 
 header{
-    background: #999999;
     font-family: 'Lemon', sans-serif;
     font-weight: 300;
     padding-top: 20px;
@@ -54,7 +53,7 @@ nav li{
 }
 
 li :hover{
-    background-color: #ff9900;
+    background-color: #ffbb00;
 }
 
 nav a{
