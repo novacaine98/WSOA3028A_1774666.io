@@ -3,30 +3,12 @@ body {
     background: wheat;
 }
 
-nav button {
-    background-color: transparent;
-    border: none;
-    color: #000080;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Lemonada', sans-serif;
-    text-transform: uppercase;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
 header {
-    font-family: 'Lemon', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
     background: #D3560E;
 }
 
@@ -35,36 +17,23 @@ header ::after {
     display: table;
     clear: both;
 }
+ .logo {
+     float: left;
+     padding: 10px 0;
+ }
 
-nav {
-    float: left;
-}
+ nav {
+     float: right;
+ }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+ nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
 
-nav li {
-    font-family: 'Lemonada', sans-serif;
-    display: inline-block;
-    margin-left: 200px;
-    
-}
-
-li :hover {
-    background-color: #ffbb00;
-}
-
-nav a {
-    color: #000080;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.logo {
-    float: left;
-    width: auto;
-    height: 800px;
-}
+ nav li {
+     display: inline-block;
+     margin-left: 70px;
+     padding-top: 25px;
+ }
