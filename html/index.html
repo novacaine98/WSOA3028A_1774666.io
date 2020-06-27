@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang = "en" dir="ltr">
 	<head>
-		<script type="module" src="Javascript/index.js" async></script>
-		<link rel="stylesheet" href="CSS/navigation.css">
+		<script type="module" src="Javascript/NewNavTest.js" async></script>
+		<link rel="stylesheet" href="CSS/newNavigation.css">
 		<link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="UTF-8">
 		<meta name = "description" content="This is the home page of Starburst Blogs, which is a blog split in two two types of blogs. One is a series of posts written and posted from the perspective of a character and the other is a series of posts based on theoretical works centered around the world wide web">
 		<meta name="keywords" content="Blog,posts">
@@ -20,20 +21,15 @@
 	
 	<h1 style = "text-align: center; border: 2px solid #ffbb00;"><b><u>Starburst Blogs</u></b></h1>
 
-	<div class="container">
-		<img src="Images/Logo.png" alt="logo" class="logo">
-
-		<nav>
-			<ul>
-				<li><button id="go-back">Back</button></li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="characterBlogHP.html">Character Blogs</a></li>
-				<li><a href="theoryBlogHP.html">Theory Blogs</a></li>
-				<li><a href="designHP.html">Design</a></li>
-				<li><a href="about.html">Profile</a></li>
-				<li><button id="go-forward">Forward</button></li>
-			</ul>
-		</nav>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<a href="about.html">Profile</a>
+		<a href="characterBlogHP.html">Character Blogs</a>
+		<a href="theoryBlogHP.html">Theory Blogs</a>
+		<a href="designHP.html">Design</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</div>
 
 </header>
