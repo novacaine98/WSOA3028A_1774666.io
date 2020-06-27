@@ -10,7 +10,7 @@ body {
 header {
     margin: 0;
     padding: 0;
-    color: #851E52;
+    ;
 }
 
 .navbar {
@@ -19,7 +19,7 @@ header {
     align-items: center;
     background-color: #D3560E;
     font-family: 'Lemonada', sans-serif;
-    color: #01252a;
+    color: wheat;
 }
 
 .blog-title {
