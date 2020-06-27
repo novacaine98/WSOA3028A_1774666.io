@@ -12,10 +12,13 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #D3560E;
+    font-family: 'Lemonada', sans-serif;
     color: #01252a;
 }
 
 .blog-title {
+    font-family: 'Lemon', sans-serif;
+    color: #01252a;
     font-size: 1.5rem;
     margin: .5rem;
 }
