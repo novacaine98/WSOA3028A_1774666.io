@@ -4,6 +4,7 @@
 
 body {
     background-color: #ffd699;
+    margin: 0;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 .blog-title {
     font-family: 'Lemon', sans-serif;
     color: #01252a;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: .5rem;
 }
 
@@ -55,6 +56,7 @@ header {
 
 .navbar-links li:hover {
     background-color: #851E52;
+    color: #014441;
 }
 
 .toggle-button {
