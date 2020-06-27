@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
-    background: #047991;
+    background: wheat;
 }
 
-button{
+nav button {
     background-color: transparent;
     border: none;
     color: #000080;
@@ -18,45 +18,46 @@ button{
     cursor: pointer;
 }
 
-.topnav{
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
-header{
+header {
     font-family: 'Lemon', sans-serif;
     font-weight: 300;
     padding-top: 20px;
+    background: #D3560E;
 }
 
-header ::after{
+header ::after {
     content: '';
     display: table;
     clear: both;
 }
 
-nav{
+nav {
     float: left;
 }
 
-nav ul{
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav li{
+nav li {
     font-family: 'Lemonada', sans-serif;
     display: inline-block;
     margin-left: 200px;
     
 }
 
-li :hover{
+li :hover {
     background-color: #ffbb00;
 }
 
-nav a{
+nav a {
     color: #000080;
     text-decoration: none;
     text-transform: uppercase;
