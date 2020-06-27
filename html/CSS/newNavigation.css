@@ -55,7 +55,7 @@ header {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: wheat;
+    background-color: #01252a;
     border-radius: 10px;
 }
 
