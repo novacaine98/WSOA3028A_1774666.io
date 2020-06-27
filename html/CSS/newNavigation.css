@@ -10,6 +10,7 @@ body {
 header {
     margin: 0;
     padding: 0;
+    background-color: #851E52;
 }
 
 .navbar {
@@ -36,7 +37,6 @@ header {
 
 .navbar-links li {
     list-style: none;
-    float: center;
 }
 
 .navbar-links li a {
