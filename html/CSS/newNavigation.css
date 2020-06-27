@@ -31,6 +31,7 @@ header {
 
 .navbar-links li {
     list-style: none;
+    text-align: center;
 }
 
 .navbar-links li a {
