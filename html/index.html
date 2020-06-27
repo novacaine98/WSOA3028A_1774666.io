@@ -2,6 +2,7 @@
 <html lang = "en" dir="ltr">
 	<head>
 		<script type="module" src="Javascript/NewNavTest.js" async></script>
+		<script type="module" src="Javascript/index.js" async></script>
 		<link rel="stylesheet" href="CSS/newNavigation.css">
 		<link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
@@ -18,19 +19,24 @@
 		
 
 <header> 
-	
-	<h1 style = "text-align: center; border: 2px solid #ffbb00;"><b><u>Starburst Blogs</u></b></h1>
 
-	<div class="topnav" id="myTopnav">
-		<a href="index.html">Home</a>
-		<a href="about.html">Profile</a>
-		<a href="characterBlogHP.html">Character Blogs</a>
-		<a href="theoryBlogHP.html">Theory Blogs</a>
-		<a href="designHP.html">Design</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i>
+	<nav class="navbar">
+		<div class="blog-title">Starburst Blogs</div>
+		<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
 		</a>
-	</div>
+		<div class="navbar-links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="theoryBlogHP.html">Theory Blogs</a></li>
+				<li><a href="characterBlogHP.html">character Blogs</a></li>
+				<li><a href="designHP.html">Design</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
 
 </header>
 
