@@ -20,8 +20,8 @@ header ::after {
  .logo {
      float: left;
      padding: 10px 0;
-     height: 50px;
-     width: auto;
+     max-width: 50%;
+     height: auto;
  }
 
  nav {
