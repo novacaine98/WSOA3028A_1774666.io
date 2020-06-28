@@ -40,7 +40,12 @@ header {
 
 .post-title {
     font-family: 'Lemonada', sans-serif;
-    color: #014441;
+    color: #c70039;
+}
+
+.page-title {
+    font-family: 'Lemonada', sans-serif;
+    color: #c70039;
 }
 
 .navbar-links ul {
