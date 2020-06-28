@@ -1,66 +1,76 @@
-<!DOCTYPE html>
-    <html lang="en" dir="ltr">
-        <head>
-            <meta charset="UTF-8">
-            <script type="module" src="Javascript/index.js" async></script>
-		    <link rel="stylesheet" href="CSS/tempTopNavStyle.css">
-            <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-            <meta name = "description" content = "A theory blog discussing accessibility and why it's so important to have this should be at the forefron of your planning and design when building a website">
-            <meta name = "keywords" content = "blog, posts, OC, POV">
-            <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
-            <title> Starburst Blogs/Character Post </title>
-        </head>
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+    <head>
+        <script type="module" src="Javascript/NewNavTest.js" async></script>
+        <link rel="stylesheet" href="CSS/newNavigation.css">
+        <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name = "description" content = "A theory blog post discussing information geographies">
+        <meta name = "keywords" content = "blog, posts, OC, POV, theory">
+        <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+        <title> Starburst Blogs/Theory </title>
+    </head>
 
-       
-        <header class = "site-header">
-            <img src="Images/headerbanner2.png" alt="header banner" width="100%" align="middle"  >
-            <h1 style = "text-align: center; border: 2px solid #ccccff;"><b><u>Starburst Blogs</u></b></h1>
-            <nav>
-                <div class = "topnav">
-                    <button id="go-back">Back</button>
-                    &nbsp;
-                    <a class="active" href="index.html">Home</a>
-                    &nbsp;
-                    <a href="characterBlogHP.html">Character Blog</a>
-                    &nbsp;
-                    <a href="theoryBlogHP.html">Theory Blog</a>
-                    &nbsp;
-                    <a href="designHP.html">Design</a>
-                    &nbsp;
-                    <a href="about.html">Profile</a
-                    >&nbsp;
-                    <button id="go-forward">Forward</button>
-                </div>
-            </nav>
+    <body>
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+            <span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+            </a>
+            
+            <div class="navbar-links">
+                <ul>
+                <li><button id="go-back">Back</button></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="theoryBlogHP.html">Theory Blogs</a></li>
+				<li><a href="characterBlogHP.html">Character Blogs</a></li>
+				<li><a href="designHP.html">Design</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><button id="go-forward">Forward</button></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <div class="blog-title">
+                <h1 style = "text-align: center; border: 4px solid #851E52;"><b><u>Starburst Blogs</u></b></h1>
+            </div>
         </header>
 
-        <body>
-            <article>
-                <header>
-                    <h2 class = "title" style = "text-align: center;"><u>Theory Blogs</u></h2>
-                    <time datetime = "2020-05-30">30 May 2020</time>
-                </header>
-                <section>
-                    <h3 style = "text-align: center;"><u>Semantic Markup – What is it and why is it necessary</u></h3>
-                        <p>Semantic markup can be defined as the use of a markup language like HTML to convey information about the meaning of the elements 
-                            that are used in the documents. This is done through the proper selection of markup elements, and to maintain complete separation 
-                            between the markup and the visual presentation of the elements contained within the document. Semantic markup can also be describes 
-                            as HTML that introduces meaning to a web page as opposed to simply presenting it</p>
-                        <p>While good use of styling can visually make up for poorly implemented markup, it will still be of no value to a computerised 
-                                visitor like a search engine crawler, assistive technologies, or translation tools. The semantic use of HTML elements is considered
-                                to be required if you want your website to be accessible to all visitors, to attract and have visitors from around the world to 
-                                your website as well as to interface effectively with other web services.</p>
-                        <p>Semantic markup is about making web content that is readable to both humans and computers. When both parties can read as well the other, 
-                            the web content becomes a great deal more accessible. This is because computers will be able to analyse the content, index and deliver it.</p>
-                        <p>The benefits of writing HTML using semantic markup stems from communication or the desire to communicate. Adding semantic tags to your 
-                            document provides additional information about that document, aiding in more effective communication</p>    
-                                
-                </section>
-            </article>
-        </body>
+        <section>
+            <div class="page-title">
+                <h2 style="text-align: center;"><u><b>Theory Blog</b></u></h2>
+            </div>
+        </section>
 
-    </html>
-</DOCTYPE>
+        <section class="blog">
+            <div class="post-title">
+                <h3 style="text-align: center;"><u>Semantic Markup - What is it and why is it necessary?</u></h2>
+            </div>
+
+            <div class="blog-post" style="max-width: 700px;">
+                <time datetime="2020-05-30 14:00">30 May 2020</time>
+                <p>Semantic markup can be defined as the use of a markup language like HTML to convey information about the meaning of the elements 
+                    that are used in the documents. This is done through the proper selection of markup elements, and to maintain complete separation 
+                    between the markup and the visual presentation of the elements contained within the document. Semantic markup can also be describes 
+                    as HTML that introduces meaning to a web page as opposed to simply presenting it</p>
+                <p>While good use of styling can visually make up for poorly implemented markup, it will still be of no value to a computerised 
+                        visitor like a search engine crawler, assistive technologies, or translation tools. The semantic use of HTML elements is considered
+                        to be required if you want your website to be accessible to all visitors, to attract and have visitors from around the world to 
+                        your website as well as to interface effectively with other web services.</p>
+                <p>Semantic markup is about making web content that is readable to both humans and computers. When both parties can read as well the other, 
+                    the web content becomes a great deal more accessible. This is because computers will be able to analyse the content, index and deliver it.</p>
+                <p>The benefits of writing HTML using semantic markup stems from communication or the desire to communicate. Adding semantic tags to your 
+                    document provides additional information about that document, aiding in more effective communication</p>
+
+
+            </div>
+        </section>
+
+    </body>
+
+</html>
 
