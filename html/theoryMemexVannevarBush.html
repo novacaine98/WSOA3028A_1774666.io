@@ -1,73 +1,81 @@
-<!DOCTYPE html>
-    <html lang="en" dir="ltr">
-        <head>
-            <meta charset="UTF-8">
-            <script type="module" src="Javascript/index.js" async></script>
-		    <link rel="stylesheet" href="CSS/tempTopNavStyle.css">
-            <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-            <meta name = "description" content = "A theory blog breaking down Vannevar Bush's concept of the memex">
-            <meta name = "keywords" content = "blog, posts, OC, POV">
-            <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
-            <title> Starburst Blogs/Character Post </title>
-        </head>
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+    <head>
+        <script type="module" src="Javascript/NewNavTest.js" async></script>
+        <link rel="stylesheet" href="CSS/newNavigation.css">
+        <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name = "description" content = "A theory blog post discussing information geographies">
+        <meta name = "keywords" content = "blog, posts, OC, POV, theory">
+        <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+        <title> Starburst Blogs/Theory </title>
+    </head>
 
-        
-        <header class = "site-header">
-            <img src="Images/headerbanner2.png" alt="header banner" width="100%" align="middle"  >
-            <h1 style = "text-align: center; border: 2px solid #ccccff;"><b><u>Starburst Blogs</u></b></h1>
-            <nav>
-                <div class = "topnav">
-                    <button id="go-back">Back</button>
-                    &nbsp;
-                    <a class="active" href="index.html">Home</a>
-                    &nbsp;
-                    <a href="characterBlogHP.html">Character Blog</a>
-                    &nbsp;
-                    <a href="theoryBlogHP.html">Theory Blog</a>
-                    &nbsp;
-                    <a href="designHP.html">Design</a>
-                    &nbsp;
-                    <a href="about.html">Profile</a
-                    >&nbsp;
-                    <button id="go-forward">Forward</button>
-                </div>
-            </nav>
+    <body>
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+            <span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+            </a>
+            
+            <div class="navbar-links">
+                <ul>
+                <li><button id="go-back">Back</button></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="theoryBlogHP.html">Theory Blogs</a></li>
+				<li><a href="characterBlogHP.html">Character Blogs</a></li>
+				<li><a href="designHP.html">Design</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><button id="go-forward">Forward</button></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <div class="blog-title">
+                <h1 style = "text-align: center; border: 4px solid #851E52;"><b><u>Starburst Blogs</u></b></h1>
+            </div>
         </header>
 
-        <body>
-            <article>
-                <header>
-                    <h2 class = "title" style = "text-align: center;"><u>Character Blogs</u></h2>
-                    <time datetime = "2020-02-10" style="text-align: center;">10 February 2020</time>
-                </header>
-                <section>
-                    <h3 style = "text-align: center;"><u>The Memex and Vannevar Bush</u></h3>
+        <section>
+            <div class="page-title">
+                <h2 style="text-align: center;"><u><b>Theory Blogs</b></u></h2>
+            </div>
+        </section>
 
-                    <p >
-                        The memex can be thought of as one of the earlier explanations of what would come to be hyperlinks in today’s day and age. Vannevar Bush described the memex as
-                        a device where people would essentially create trails connecting information that others can follow and share with others. A library of sorts. It was said that 
-                        the device would work or be designed or would mimic the associative properties of the human brain but, unlike the brain, the information would be processed and 
-                        stored permanently. </p>
-                    <p>
-                        Vannevar Bush talks about associative trails. These associative trails are ways in which linear sequences of information could be created with the use of microfilms 
-                        as well as personal comments and annotations that are called side trails. Bush wanted to design the memex in a way that would make retrieving and storing data simple 
-                        and efficient and worked in a similar way to the human brain. In this sense, he wanted to have it be so that information could be stored easily and be accessed by 
-                        using certain cues to trigger the recollection of the information. In the case of the memex, it would be someone using a series of numbers in the form of a code as a 
-                        means of accessing the information.</p>
-                    <p >
-                        The memex has been credited as being the inspiration for the first practical hypertext systems. Although the ways in which the memex system functions and the way that 
-                        the hyperlinks works are fundamentally different, the concept remains similar. The memex device would work by using microfilm storage, dry photography and analogue
-                        computing and would work to connect trails of links connecting sequences of microfilm frames with the information whereas hyperlinks work to create links connecting 
-                        single words, phrases or images in a document and a local or remote destination. 
-                        An important factor that should not go unmentioned is the fact that the intention of the memex was for information to be shared, whether it was published works or 
-                        personal annotations and comments.</p>
-                   
-                </section>
-            </article>
-        </body>
+        <section class="blog">
+            <div class="post-title">
+                <h3 style="text-align: center;"><u>The Memex and Vannevar Bush</u></h2>
+            </div>
 
-    </html>
-</DOCTYPE>
+            <div class="blog-post" style="max-width: 700px;">
+                <time datetime="2020-02-10 14:00">10 February 2020</time>
+                <p >
+                    The memex can be thought of as one of the earlier explanations of what would come to be hyperlinks in today’s day and age. Vannevar Bush described the memex as
+                    a device where people would essentially create trails connecting information that others can follow and share with others. A library of sorts. It was said that 
+                    the device would work or be designed or would mimic the associative properties of the human brain but, unlike the brain, the information would be processed and 
+                    stored permanently. </p>
+                <p>
+                    Vannevar Bush talks about associative trails. These associative trails are ways in which linear sequences of information could be created with the use of microfilms 
+                    as well as personal comments and annotations that are called side trails. Bush wanted to design the memex in a way that would make retrieving and storing data simple 
+                    and efficient and worked in a similar way to the human brain. In this sense, he wanted to have it be so that information could be stored easily and be accessed by 
+                    using certain cues to trigger the recollection of the information. In the case of the memex, it would be someone using a series of numbers in the form of a code as a 
+                    means of accessing the information.</p>
+                <p >
+                    The memex has been credited as being the inspiration for the first practical hypertext systems. Although the ways in which the memex system functions and the way that 
+                    the hyperlinks works are fundamentally different, the concept remains similar. The memex device would work by using microfilm storage, dry photography and analogue
+                    computing and would work to connect trails of links connecting sequences of microfilm frames with the information whereas hyperlinks work to create links connecting 
+                    single words, phrases or images in a document and a local or remote destination. 
+                    An important factor that should not go unmentioned is the fact that the intention of the memex was for information to be shared, whether it was published works or 
+                    personal annotations and comments.</p>
+
+            </div>
+        </section>
+
+    </body>
+
+</html>
 
