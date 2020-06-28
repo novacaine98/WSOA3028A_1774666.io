@@ -54,6 +54,12 @@ header {
     height: auto;
 }
 
+.wireframe-image {
+    float: center;
+    width: 500px;
+    height: auto;
+}
+
 .navbar-links ul {
     margin: 0;
     padding: 0;
