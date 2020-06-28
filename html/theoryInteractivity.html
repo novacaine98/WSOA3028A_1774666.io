@@ -1,71 +1,80 @@
-<!DOCTYPE html>
-    <html lang="en" dir="ltr">
-        <head>
-            <meta charset="UTF-8">
-            <script type="module" src="Javascript/index.js" async></script>
-		    <link rel="stylesheet" href="CSS/tempTopNavStyle.css">
-            <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-            <meta name = "description" content = "A theory blog post discussing the concept of interactivity and those who have tried to define the term">
-            <meta name = "keywords" content = "blog, posts, OC, POV">
-            <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
-            <title> Starburst Blogs/Character Post </title>
-        </head>
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+    <head>
+        <script type="module" src="Javascript/NewNavTest.js" async></script>
+        <link rel="stylesheet" href="CSS/newNavigation.css">
+        <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name = "description" content = "A theory blog post discussing information geographies">
+        <meta name = "keywords" content = "blog, posts, OC, POV, theory">
+        <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+        <title> Starburst Blogs/Theory </title>
+    </head>
 
-       
+    <body>
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+            <span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+            </a>
+            
+            <div class="navbar-links">
+                <ul>
+                <li><button id="go-back">Back</button></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="theoryBlogHP.html">Theory Blogs</a></li>
+				<li><a href="characterBlogHP.html">Character Blogs</a></li>
+				<li><a href="designHP.html">Design</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><button id="go-forward">Forward</button></li>
+                </ul>
+            </div>
+        </nav>
 
-        <header class = "site-header">
-            <img src="Images/headerbanner2.png" alt="header banner" width="100%" align="middle"  >
-            <h1 style = "text-align: center; border: 2px solid #ccccff;"><b><u>Starburst Blogs</u></b></h1>
-            <nav>
-                <div class = "topnav">
-                    <button id="go-back">Back</button>
-                    &nbsp;
-                    <a class="active" href="index.html">Home</a>
-                    &nbsp;
-                    <a href="characterBlogHP.html">Character Blog</a>
-                    &nbsp;
-                    <a href="theoryBlogHP.html">Theory Blog</a>
-                    &nbsp;
-                    <a href="designHP.html">Design</a>
-                    &nbsp;
-                    <a href="about.html">Profile</a
-                    >&nbsp;
-                    <button id="go-forward">Forward</button>
-                </div>
-            </nav>
+        <header>
+            <div class="blog-title">
+                <h1 style = "text-align: center; border: 4px solid #851E52;"><b><u>Starburst Blogs</u></b></h1>
+            </div>
         </header>
 
-        <body>
-            <article>
-                <header>
-                    <h2 class = "title" style = "text-align: center;"><u>Theory Blogs</u></h2>
-                    <time datetime = "2020-03-05">5 March 2020</time>
-                </header>
-                <section>
-                    <h3 style = "text-align: center;"><u>Interactivity</u></h3>
-                    <p style>
-                        The concept of interactivity has been known to be something that is very tricky to explain. Trying to determine what makes something interactive is not simple by any means. 
-                        There are too many possible parameters to be considered and too many loopholes those are found and all in all the term is, as Lev Manovich said, too broad to be useful and 
-                        by extension, too broad to be defined. Many theorists have tried to create requirements for what might make something interactive but those definitions on their own are 
-                        still not enough to properly express and explain why or how something is interactive. </p>
-                    <p>
-                        Aaron Smuts gave a list of requirements for what makes something interactive. He stated that based on the existing definitions and theories at the time, something could be 
-                        said to be interactive if it is (1) responsive, (2) does not completely control, (3) is not completely controlled and (4) does not respond in a completely random fashion. 
-                        Smuts tries to encompass as many facets of what is understood about interactivity but there are some things that slip through the cracks. It brings up the possibility that 
-                        everything could be interactive depending on the context. It also brings to light the fact that output should always be relational to the input.</p>
-                    <p >
-                        Espen Aarseth, in his work, Cybertext: Perspectives on Ergodic Literature, replaces the word ‘interactive’ with ‘ergodic’. He then defines ergodic as something that requires 
-                        nontrivial effort to allow a reader to traverse the text. The use of the word ergodic in place of the word interactivity helps to explain what it meant by interactivity and 
-                        makes it easier to form a distinction between what might be interactive.</p>
-                    <p >
-                        A possible working definition is that something is interactive if it is responsive, it does not respond in a completely random fashion but the response is relational to the 
-                        input that is given, requires nontrivial effort and can, in some way, modify the shape of the text itself</p>
-                </section>
-            </article>
-        </body>
+        <section>
+            <div class="page-title">
+                <h2 style="text-align: center;"><u><b>Theory Blog</b></u></h2>
+            </div>
+        </section>
 
-    </html>
-</DOCTYPE>
+        <section class="blog">
+            <div class="post-title">
+                <h3 style="text-align: center;"><u>Interactivity</u></h2>
+            </div>
+
+            <div class="blog-post" style="max-width: 700px;">
+                <time datetime="2020-03-05 14:00">5 March 2020</time>
+                <p style>
+                    The concept of interactivity has been known to be something that is very tricky to explain. Trying to determine what makes something interactive is not simple by any means. 
+                    There are too many possible parameters to be considered and too many loopholes those are found and all in all the term is, as Lev Manovich said, too broad to be useful and 
+                    by extension, too broad to be defined. Many theorists have tried to create requirements for what might make something interactive but those definitions on their own are 
+                    still not enough to properly express and explain why or how something is interactive. </p>
+                <p>
+                    Aaron Smuts gave a list of requirements for what makes something interactive. He stated that based on the existing definitions and theories at the time, something could be 
+                    said to be interactive if it is (1) responsive, (2) does not completely control, (3) is not completely controlled and (4) does not respond in a completely random fashion. 
+                    Smuts tries to encompass as many facets of what is understood about interactivity but there are some things that slip through the cracks. It brings up the possibility that 
+                    everything could be interactive depending on the context. It also brings to light the fact that output should always be relational to the input.</p>
+                <p >
+                    Espen Aarseth, in his work, Cybertext: Perspectives on Ergodic Literature, replaces the word ‘interactive’ with ‘ergodic’. He then defines ergodic as something that requires 
+                    nontrivial effort to allow a reader to traverse the text. The use of the word ergodic in place of the word interactivity helps to explain what it meant by interactivity and 
+                    makes it easier to form a distinction between what might be interactive.</p>
+                <p >
+                    A possible working definition is that something is interactive if it is responsive, it does not respond in a completely random fashion but the response is relational to the 
+                    input that is given, requires nontrivial effort and can, in some way, modify the shape of the text itself</p>
+
+            </div>
+        </section>
+
+    </body>
+
+</html>
 
