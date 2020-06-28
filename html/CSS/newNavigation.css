@@ -49,7 +49,7 @@ header {
 }
 
 .flower-blog {
-    align-content: center;
+    float: center;
     width: 200px;
     height: auto;
 }
