@@ -13,6 +13,7 @@ body {
     font-family: 'Inconsolata';
     font-size: 18px;
     color: #01252a;
+    padding: 0.01rem 16px;
 }
 
 header {
