@@ -1,73 +1,81 @@
-<!DOCTYPE html>
-    <html lang="en" dir="ltr">
-        <head>
-            <meta charset="UTF-8">
-            <script type="module" src="Javascript/index.js" async></script>
-		    <link rel="stylesheet" href="CSS/tempTopNavStyle.css">
-            <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
-		    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-            <meta name = "description" content = "A theory blog discussing accessibility and why it's so important to have this should be at the forefron of your planning and design when building a website">
-            <meta name = "keywords" content = "blog, posts, OC, POV">
-            <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
-            <title> Starburst Blogs/Character Post </title>
-        </head>
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+    <head>
+        <script type="module" src="Javascript/NewNavTest.js" async></script>
+        <link rel="stylesheet" href="CSS/newNavigation.css">
+        <link href="https://fonts.googleapis.com/css?family=Lemon:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name = "description" content = "A theory blog post discussing information geographies">
+        <meta name = "keywords" content = "blog, posts, OC, POV, theory">
+        <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+        <title> Starburst Blogs/Theory </title>
+    </head>
 
-       
-        <header class = "site-header">
-            <img src="Images/headerbanner2.png" alt="header banner" width="100%" align="middle"  >
-            <h1 style = "text-align: center; border: 2px solid #ccccff;"><b><u>Starburst Blogs</u></b></h1>
-            <nav>
-                <div class = "topnav">
-                    <button id="go-back">Back</button>
-                    &nbsp;
-                    <a class="active" href="index.html">Home</a>
-                    &nbsp;
-                    <a href="characterBlogHP.html">Character Blog</a>
-                    &nbsp;
-                    <a href="theoryBlogHP.html">Theory Blog</a>
-                    &nbsp;
-                    <a href="designHP.html">Design</a>
-                    &nbsp;
-                    <a href="about.html">Profile</a
-                    >&nbsp;
-                    <button id="go-forward">Forward</button>
-                </div>
-            </nav>
+    <body>
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+            <span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+            </a>
+            
+            <div class="navbar-links">
+                <ul>
+                <li><button id="go-back">Back</button></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="theoryBlogHP.html">Theory Blogs</a></li>
+				<li><a href="characterBlogHP.html">Character Blogs</a></li>
+				<li><a href="designHP.html">Design</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><button id="go-forward">Forward</button></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <div class="blog-title">
+                <h1 style = "text-align: center; border: 4px solid #851E52;"><b><u>Starburst Blogs</u></b></h1>
+            </div>
         </header>
 
-        <body>
-            <article>
-                <header>
-                    <h2 class = "title" style = "text-align: center;"><u>Theory Blogs</u></h2>
-                    <time datetime = "2020-02-27">27 February 2020</time>
-                </header>
-                <section>
-                    <h3 style = "text-align: center;"><u>Accessibility</u></h3>
+        <section>
+            <div class="page-title">
+                <h2 style="text-align: center;"><u><b>Theory Blog</b></u></h2>
+            </div>
+        </section>
 
-                    <p >
-                        Accessibility refers to the practice of being able to have a website used by as many people as possible. This means having it 
-                        be easy to access and navigate by people with disabilities, people who can only access certain types of devices, people with 
-                        limited access to the internet or those with poor network connections. </p>
-                    <p >
-                        Designing a website with the intention of increasing accessibility and having it be able to be accessible to as many people 
-                        as possible should always be at the forefront of your mind. It shows that you have good ethics and morals. It benefits more 
-                        than it hinders and that is the most important thing. </p>
-                    <p >
-                        When trying to practice accessibility it is important to do research into the user experiences of those you are trying to 
-                        cater for. It is not going to work if you work solely from your own perspective as a user without taking into account the 
-                        challenges that others face when trying to access not only your website but the content on the internet in general. An 
-                        understanding of the types of disabilities you are trying to cater for is important as well as what socio-economic barriers 
-                        in terms of access you are trying to combat.</p>
-                    <p >
-                        The types of disabilities that you are trying to cater for will need different things. For example, for visually-impaired 
-                        people, it is important to know that visual-impairments lie on a spectrum and that people who are impacted by this will 
-                        have varying degrees of sight and provisions for this need to be made, whether it be having zooming functionality on your 
-                        website or having text-to-speech functionality</p>
-                </section>
-            </article>
-        </body>
+        <section class="blog">
+            <div class="post-title">
+                <h3 style="text-align: center;"><u>Accessibility</u></h2>
+            </div>
 
-    </html>
-</DOCTYPE>
+            <div class="blog-post" style="max-width: 700px;">
+                <time datetime="2020-02-27 14:00">27 February 2020</time>
+                <p >
+                    Accessibility refers to the practice of being able to have a website used by as many people as possible. This means having it 
+                    be easy to access and navigate by people with disabilities, people who can only access certain types of devices, people with 
+                    limited access to the internet or those with poor network connections. </p>
+                <p >
+                    Designing a website with the intention of increasing accessibility and having it be able to be accessible to as many people 
+                    as possible should always be at the forefront of your mind. It shows that you have good ethics and morals. It benefits more 
+                    than it hinders and that is the most important thing. </p>
+                <p >
+                    When trying to practice accessibility it is important to do research into the user experiences of those you are trying to 
+                    cater for. It is not going to work if you work solely from your own perspective as a user without taking into account the 
+                    challenges that others face when trying to access not only your website but the content on the internet in general. An 
+                    understanding of the types of disabilities you are trying to cater for is important as well as what socio-economic barriers 
+                    in terms of access you are trying to combat.</p>
+                <p >
+                    The types of disabilities that you are trying to cater for will need different things. For example, for visually-impaired 
+                    people, it is important to know that visual-impairments lie on a spectrum and that people who are impacted by this will 
+                    have varying degrees of sight and provisions for this need to be made, whether it be having zooming functionality on your 
+                    website or having text-to-speech functionality</p>
+            </div>
+        </section>
+
+    </body>
+
+</html>
 
