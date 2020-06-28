@@ -48,6 +48,12 @@ header {
     color: #014441;
 }
 
+.flower-blog {
+    align-content: center;
+    width: 500px;
+    height: auto;
+}
+
 .navbar-links ul {
     margin: 0;
     padding: 0;
