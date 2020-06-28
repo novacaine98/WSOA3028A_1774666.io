@@ -39,6 +39,11 @@ header {
     margin: .5rem;
 }
 
+.post-title {
+    font-family: 'Lemonada', sans-serif;
+    color: #014441;
+}
+
 .navbar-links ul {
     margin: 0;
     padding: 0;
