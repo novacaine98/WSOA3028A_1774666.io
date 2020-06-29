@@ -16,6 +16,23 @@ body {
     padding: 0.01rem 16px;
 }
 
+.blog-list {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lemon', sans-serif;
+    font-size: 18px;
+    color: #01252a;
+    padding: 0.01rem 16px;
+}
+
+.blog-list ul {
+    list-style-type: none;
+}
+
+.blog-list li {
+    text-align: center;
+}
+
 header {
     margin: 0;
     padding: 0;
