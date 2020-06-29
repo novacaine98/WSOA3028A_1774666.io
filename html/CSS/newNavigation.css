@@ -31,6 +31,7 @@ body {
 
 .blog-list li {
     text-align: center;
+    list-style: none;
 }
 
 header {
