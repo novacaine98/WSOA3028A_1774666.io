@@ -40,6 +40,12 @@ header {
     ;
 }
 
+footer {
+    font-family: 'Inconsolata';
+    background-color: #851E52;
+    color: #f7fbe1;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
